@@ -1,0 +1,91 @@
+@import url("https://fonts.googleapis.com/css2?family=Pattaya&family=Rubik&display=swap");
+
+html {
+  font-family: "Rubik", sans-serif;
+}
+.display-3 {
+  font-family: "pattaya", sans-serif;
+}
+
+#demo .carousel-item img {
+  -o-object-fit: contain;
+  object-fit: contain;
+  -o-object-position: center;
+  object-position: center;
+
+  width: 100wh;
+  overflow: hidden;
+}
+
+.carousel-control-next-icon,
+.carousel-control-prev-icon {
+  background-color: black;
+}
+
+.explain {
+  text-align: center;
+  padding: 30px 30px;
+  line-height: 40px;
+  font-size: 18px;
+  background: rgb(255, 255, 255);
+}
+
+main {
+  padding-top: 10px;
+  background-image: linear-gradient(
+    to top,
+    #9453a6,
+    #a172b8,
+    #af90c9,
+    #c0aed7,
+    #d3cbe4,
+    #e1d1ed,
+    #f0d7f4,
+    #ffddfa,
+    #ffc8e2,
+    #ffb9ac,
+    #ffbb67,
+    #f2cc0f
+  );
+}
+
+nav {
+  background-color: #f2cc0f;
+}
+.navbar > .container-fluid {
+  justify-content: space-around;
+  font-size: 20px;
+}
+
+.copyRight {
+  text-align: center;
+} /*# sourceMappingURL=style.css.map */
+
+footer {
+  background: #9453a6;
+}
+
+.holon {
+  color: black;
+}
+
+.card-text {
+  text-align: center;
+}
+
+.hotel {
+  background-color: black;
+}
+
+.row.first {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.about img {
+  width: 350px;
+}
+
+iframe {
+  width: 100px;
+}
